@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.azhar.smartscanindia.ui.signature.SignaturePadView
+        android:id="@+id/signature_pad"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#EEEEEE" />
+
+    <Button android:id="@+id/btn_clear" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Clear" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btn_save" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Save Signature" android:layout_marginTop="12dp"/>
+</LinearLayout>
