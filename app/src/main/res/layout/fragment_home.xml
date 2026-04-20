@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SmartScan India"
+                    android:textColor="@color/brand_primary"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:text="Scan • OCR • PDF • Sign"
+                    android:textColor="@color/text_secondary" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:columnCount="2"
+            android:useDefaultMargins="true">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_aadhaar"
+                style="@style/FeatureCard"
+                app:cardBackgroundColor="@color/card_blue">
+                <TextView style="@style/FeatureCardText" android:text="Aadhaar Scan" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_pan"
+                style="@style/FeatureCard"
+                app:cardBackgroundColor="@color/card_green">
+                <TextView style="@style/FeatureCardText" android:text="PAN Scan" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_document"
+                style="@style/FeatureCard"
+                app:cardBackgroundColor="@color/card_orange">
+                <TextView style="@style/FeatureCardText" android:text="Document" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_ocr"
+                style="@style/FeatureCard"
+                app:cardBackgroundColor="@color/card_purple">
+                <TextView style="@style/FeatureCardText" android:text="OCR" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_pdf_tools"
+                style="@style/FeatureCard"
+                app:cardBackgroundColor="@color/card_teal">
+                <TextView style="@style/FeatureCardText" android:text="PDF Tools" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_signature"
+                style="@style/FeatureCard"
+                app:cardBackgroundColor="@color/card_rose">
+                <TextView style="@style/FeatureCardText" android:text="Signature" />
+            </com.google.android.material.card.MaterialCardView>
+        </GridLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/ad_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

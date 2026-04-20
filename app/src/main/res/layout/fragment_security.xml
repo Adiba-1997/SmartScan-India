@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_app_lock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable App Lock PIN" />
+
+        <EditText
+            android:id="@+id/et_new_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:hint="Set 4-digit PIN"
+            android:inputType="numberPassword" />
+
+        <Button
+            android:id="@+id/btn_set_pin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Save PIN" />
+
+        <Button
+            android:id="@+id/btn_test_unlock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Open Lock Screen" />
+
+        <TextView
+            android:id="@+id/tv_biometric_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Biometric status" />
+    </LinearLayout>
+</ScrollView>
