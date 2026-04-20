@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button android:id="@+id/btn_launch_camera_x" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Open CameraX Scanner" />
+    <Button android:id="@+id/btn_auto_detect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Auto Edge Detect + Crop" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btn_multi_page" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Multi-page HD Scan" android:layout_marginTop="12dp"/>
+</LinearLayout>

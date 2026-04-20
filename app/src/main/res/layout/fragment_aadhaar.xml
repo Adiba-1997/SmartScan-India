@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button android:id="@+id/btn_scan_front" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Scan Aadhaar Front" />
+    <Button android:id="@+id/btn_scan_back" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Scan Aadhaar Back" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btn_combine" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Combine Front + Back" android:layout_marginTop="12dp"/>
+</LinearLayout>

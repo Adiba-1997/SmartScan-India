@@ -1,0 +1,4 @@
+<resources>
+    <style name="Theme.SmartScanIndia" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="Theme.SmartScanIndia.NoActionBar" parent="Theme.SmartScanIndia" />
+</resources>
