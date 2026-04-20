@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment" android:name="com.azhar.smartscanindia.ui.home.HomeFragment" android:label="Home" />
+    <fragment android:id="@+id/aadhaarFragment" android:name="com.azhar.smartscanindia.ui.aadhaar.AadhaarFragment" android:label="Aadhaar" />
+    <fragment android:id="@+id/panFragment" android:name="com.azhar.smartscanindia.ui.pan.PanFragment" android:label="PAN" />
+    <fragment android:id="@+id/documentScannerFragment" android:name="com.azhar.smartscanindia.ui.document.DocumentScannerFragment" android:label="Document Scanner" />
+    <fragment android:id="@+id/ocrFragment" android:name="com.azhar.smartscanindia.ui.ocr.OcrFragment" android:label="OCR" />
+    <fragment android:id="@+id/pdfToolsFragment" android:name="com.azhar.smartscanindia.ui.pdf.PdfToolsFragment" android:label="PDF Tools" />
+    <fragment android:id="@+id/signatureFragment" android:name="com.azhar.smartscanindia.ui.signature.SignatureFragment" android:label="Signature" />
+    <fragment android:id="@+id/securityFragment" android:name="com.azhar.smartscanindia.ui.security.SecurityFragment" android:label="Security" />
+    <fragment android:id="@+id/shareFragment" android:name="com.azhar.smartscanindia.ui.share.ShareFragment" android:label="Share" />
+    <fragment android:id="@+id/premiumFragment" android:name="com.azhar.smartscanindia.ui.premium.PremiumFragment" android:label="Premium" />
+</navigation>
